@@ -46,7 +46,29 @@ public:
 
  virtual System::Void Render(System::Void)
 {
-	
+	glClearColor(0.0f, 0.0f, 0.0f, 0.0f); // Clear screen to black
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    glEnable(GL_DEPTH_TEST); // Turn on Z-depth buffering
+    glEnable(GL_CULL_FACE);  // Turn on backface culling          
+    glFrontFace(GL_CCW);     // Treat counter-clockwise ordering of vertices as front facing
+
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+    gluPerspective(40.0, 1.0, 1.0, 1000.0); // Field of view 40, width/height, near clip, far clip
+             
+    glMatrixMode(GL_MODELVIEW); 
+    glLoadIdentity(); 
+    gluLookAt(0, 0, 10, // where the camera is located
+    0.0, 0.0, 0.0,      // where the camera is looking
+    0.0, 1.0, 0.0);         // direction of up (Y direction)
+
+    glBegin(GL_TRIANGLES);      // 3 vertices counter clockwise 
+    glColor3f(1.0,0.0,0.0);   // Red colour
+    glVertex3f(0.0, 1.0, 0.0);    // Equilateral triangle centred on (0,0,0)
+    glVertex3f(-0.866, -0.5, 0);   // on XY plane, each vertex is |1| from origin. 
+    glVertex3f(0.866, -0.5, 0);
+    glEnd();
+
 	SwapOpenGLBuffers();
 }
 
