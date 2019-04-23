@@ -81,10 +81,11 @@ namespace OpenGL_3D {
 
 		}
 #pragma endregion
-	private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e) {
-			 }
-	private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e) {
-			 }
+		private: System::Void Form1_Load(System::Object^  sender, System::EventArgs^  e) {
+		}
+		private: System::Void timer1_Tick(System::Object^  sender, System::EventArgs^  e) {
+			OpenGL->Render();
+		}
 	};
 }
 
