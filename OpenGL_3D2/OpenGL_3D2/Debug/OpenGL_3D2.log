@@ -1,0 +1,32 @@
+﻿Build started 4/24/2019 11:23:36 AM.
+     1>Project "X:\Desktop\Computer-graphics\OpenGL_3D2\OpenGL_3D2\OpenGL_3D2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\OpenGL_3D2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"X:\Desktop\Computer-graphics\OpenGL_3D2\OpenGL_3D2\glm\gtc" /I"X:\Desktop\Computer-graphics\OpenGL_3D2\OpenGL_3D2\glm" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\OpenGL_3D2.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt OpenGL_3D2.cpp /clr:nostdlib 
+         OpenGL_3D2.cpp
+         All outputs are up-to-date.
+       CoreResGen:
+         No resources are out of date with respect to their source files. Skipping resource generation.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"X:\Desktop\Computer-graphics\OpenGL_3D2\Debug\OpenGL_3D2.exe" /INCREMENTAL /NOLOGO openGL32.lib glu32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /ASSEMBLYRESOURCE:Debug\OpenGL_3D2.Form1.resources /MANIFEST /ManifestFile:"Debug\OpenGL_3D2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"X:\Desktop\Computer-graphics\OpenGL_3D2\Debug\OpenGL_3D2.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\OpenGL_3D2.obj
+         Debug\stdafx.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         OpenGL_3D2.vcxproj -> X:\Desktop\Computer-graphics\OpenGL_3D2\Debug\OpenGL_3D2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"X:\Desktop\Computer-graphics\OpenGL_3D2\Debug\OpenGL_3D2.exe;#1" /manifest Debug\OpenGL_3D2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\OpenGL_3D2.unsuccessfulbuild".
+         Touching "Debug\OpenGL_3D2.lastbuildstate".
+     1>Done Building Project "X:\Desktop\Computer-graphics\OpenGL_3D2\OpenGL_3D2\OpenGL_3D2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.40
