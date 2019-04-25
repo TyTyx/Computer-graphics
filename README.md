@@ -1,2 +1,8 @@
 # Computer-graphics
-Repository to hold work and assignments related to computer-graphics.
+
+Repository made for work and assignments related to a computer-graphics module being undertaken.
+
+Includes:
+
+ - POV-Ray, and;
+ - OpenGL in C++
