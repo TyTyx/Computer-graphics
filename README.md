@@ -1,6 +1,6 @@
 # Computer-graphics
 
-Repository made for work and assignments related to a computer-graphics module being undertaken.
+Repository for computer-graphics module.
 
 Includes:
 
